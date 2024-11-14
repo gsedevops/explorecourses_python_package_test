@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-xml-json-explorecourses = {git = "git+https://github.com/gsedevops/python_xml_json_explorecourses", ref = "d6c4d9018fae81b30a2f6267a09f961ee377ca99"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
